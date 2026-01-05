@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Actor Face Trainer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Actor Face Trainer</h1>
+    <input id="search" type="search" placeholder="Search…" autocomplete="off" />
+  </header>
+
+  <main>
+    <div id="grid" class="grid" aria-label="Actor gallery"></div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modalBackdrop" class="backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal" role="document">
+      <button id="closeBtn" class="close" aria-label="Close">✕</button>
+
+      <div class="hero">
+        <img id="modalImg" alt="" />
+        <div class="nameOverlay">
+          <span id="modalName"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
