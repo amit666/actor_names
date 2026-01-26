@@ -50,5 +50,6 @@
   { "id": "Alec Baldwin", "name": "Alec Baldwin", "image": "images/Alec Baldwin.png", "tags": ["drama"] },
   { "id": "Billy Bob Thornton", "name": "Billy Bob Thornton", "image": "images/Billy Bob Thornton.png", "tags": ["drama"] },
   { "id": "Ben Affleck", "name": "Ben Affleck", "image": "images/Ben Affleck.png", "tags": ["drama"] },
+  { "id": "Steve Martin", "name": "Steve Martin", "image": "images/Steve Martin.png", "tags": ["drama"] },
   { "id": "Harvey Keitel", "name": "Harvey Keitel", "image": "images/Harvey Keitel.png", "tags": ["drama"] }
 ]
